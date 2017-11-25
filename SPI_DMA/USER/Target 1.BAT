@@ -1,0 +1,41 @@
+SET PATH=C:\Keil_4\ARM\BIN40\;C:\ZHXT\MGSII\bin;C:\ZHXT\GISII\bin;C:\app\bfxk3\product\11.2.0\dbhome_1\bin;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\TortoiseGit\bin;C:\Program Files\IVI Foundation\VISA\WinNT\Bin\;C:\Program Files\IVI Foundation\VISA\WinNT\Bin;C:\Program Files\Microsoft SQL Server\100\Tools\Binn\;C:\Program Files\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\IDM Computer Solutions\UltraEdit;C:\Qt\Qt5.5.1\5.5\mingw492_32\bin\windeployqt;C:\ZHXT\MGSII\bin;C:\ZHXT\GISII\bin;C:\Program Files\Microsoft Visual Studio\Common\Tools\WinNT;C:\Program Files\Microsoft Visual Studio\Common\MSDev98\Bin;C:\Program Files\Microsoft Visual Studio\Common\Tools;C:\Program Files\Microsoft Visual Studio\VC98\bin
+SET ARMCC41INC=C:\Keil_4\ARM\RV31\INC
+SET ARMCC41LIB=C:\Keil_4\ARM\RV31\LIB
+SET CPU_TYPE=STM32F103C8
+SET CPU_VENDOR=STMicroelectronics
+SET UV2_TARGET=Target 1
+SET CPU_CLOCK=0x007A1200
+"C:\Keil_4\ARM\BIN40\ArmAsm" --Via "..\output\startup_stm32f10x_hd._ia"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\core_cm3.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\system_stm32f10x.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\misc.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_adc.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_bkp.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_can.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_cec.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_crc.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_dac.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_dbgmcu.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_dma.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_exti.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_flash.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_fsmc.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_gpio.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_i2c.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_iwdg.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_pwr.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_rcc.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_rtc.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_sdio.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_spi.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_tim.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_usart.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_wwdg.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\main.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\stm32f10x_it.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\delay.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\sys.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\usart.__i"
+"C:\Keil_4\ARM\BIN40\ArmCC" --Via "..\output\oled.__i"
+"C:\Keil_4\ARM\BIN40\ArmLink" --Via "..\Output\tgl_test_keil4_v3_5.lnp"
+C:\Keil_4\ARM\BIN40\fromelf.exe "..\Output\tgl_test_keil4_v3_5.axf" --i32combined --output "..\Output\tgl_test_keil4_v3_5.hex"
